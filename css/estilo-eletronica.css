@@ -1,0 +1,141 @@
+
+body {
+    background-color: #f8f9fa;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #8246A3, #4c00ff);
+    color: #fff;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+  }
+
+  body {
+    background-color: var(--cor-fundo);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* Header */
+  .bg-primaria {
+    background: linear-gradient(90deg, var(--cor-primaria), var(--cor-secundaria));
+  }
+  
+  header a {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: var(--cor-sucesso) !important;
+  }
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .btn-comprar {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .btn-comprar:hover {
+    background-color: var(--cor-secundaria);
+  }
+  
+  /* Footer */
+  .bg-escura {
+    background-color: var(--cor-escura);
+  }
+  
+  /* Dark mode */
+  .dark-mode {
+    background-color: #181818;
+    color: #eaeaea;
+  }
+  
+  .dark-mode .card {
+    background-color: #2b2b2b;
+    color: #fff;
+  }
+  
+  .dark-mode .bg-primaria {
+    background: linear-gradient(90deg, #202020, #3b3b3b);
+  }
+  
+  .dark-mode footer {
+    background-color: #121212;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffe600 !important;
+  }
+  
+  #header-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff !important;
+  }
+  
+  .btn-warning {
+    font-weight: 600;
+    color: #000;
+  }
+  
+  footer {
+    background: linear-gradient(90deg, #8246A3, #4c00ff);
+    border-top: 1px solid #dee2e6;
+    color: #ccc;
+  }
+  
+  /* Tema escuro */
+  .dark-mode {
+    background-color: #181818;
+    color: #eaeaea;
+  }
+  
+  .dark-mode header {
+    background: linear-gradient(90deg, #8246A3, #4c00ff);
+  }
+  
+  .dark-mode .nav-link {
+    color: #ccc !important;
+  }
+  
+  .dark-mode .nav-link:hover {
+    color: #fff !important;
+  }
+  
+  .dark-mode footer {
+    background: linear-gradient(90deg, #8246A3, #4c00ff);
+    color: #ccc;
+  }
+
+  .dark-mode .col .text-muted {
+    color: #ccc !important;
+  }
+  
