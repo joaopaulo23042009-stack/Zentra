@@ -1,4 +1,53 @@
-/* Paleta Zentra */
+
+  
+  /* Banner Esporte */
+  .banner-esporte {
+    height: 90vh;
+    background: linear-gradient(to right, #2970C2aa, #58C255aa),
+                url(../img/banner.jpg) center/cover no-repeat;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  }
+  
+  .banner-esporte h1 {
+    font-size: 3rem;
+  }
+  
+  .banner-esporte p {
+    font-size: 1.2rem;
+  }
+  
+  /* Cards */
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  /* Chamada final */
+  .chamada-esporte {
+    background: linear-gradient(to right, var(--verde), var(--azul));
+  }
+  
+  /* Botões */
+  .btn-success {
+    background-color: var(--verde);
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .btn-success:hover {
+    background-color: #45a944;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--azul) !important;
+  }
+  /* Paleta Zentra */
 :root {
     --azul: #2970C2;
     --roxo: #8246A3;
@@ -86,7 +135,7 @@
     background-color: #0c0c0c;
 }
 .btn-gradiente {
-  background: linear-gradient(45deg, #2970c2, #8246a3,#15baa9);
+  background: linear-gradient(45deg , #2970c2,#15baa9, #17b4cc);
   color: #f5f5f5;
   padding: 12px 30px;
   font-size: 16px;
@@ -99,7 +148,7 @@
 }
 
 .btn-gradiente:hover {
-  background: linear-gradient(45deg, #8246a3, #2970c2,#15baa9, #17b4cc)}
+  background: linear-gradient(45deg ,#15baa9, #17b4cc)}
 
   @media (min-width: 992px) {
     .col-lg-1-7 {
