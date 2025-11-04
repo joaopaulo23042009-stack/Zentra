@@ -1,0 +1,112 @@
+/* Paleta Zentra */
+:root {
+    --azul: #2970C2;
+    --roxo: #8246A3;
+    --verde: #58C255;
+    --branco: #F5F5F5;
+    --preto: #241E1E;
+  }
+ 
+  /* Ajustes gerais */
+  body {
+    scroll-behavior: smooth;
+    background-color: #050505;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #050505 !important;
+  }
+  
+  /* Banner */
+  .banner {
+ background-image: url(../img/banner.png);
+    height: 50vh;
+    color: white;
+    padding: 0 10px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+  }
+  
+  /* Efeito hover nos cards */
+  .card-hover {
+    transition: transform 0.5s, box-shadow 0.9s;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #050505;
+  }
+  .btn-lg{
+    background-color:var(--azul) ;
+  }
+  .bg-lol{
+    background-color: #0c0c0c;
+  }
+.textbluemarine{
+    color: 
+    #17b4cc;
+}
+.textverde{
+    color: 
+    #15baa9;
+}
+.textpurple{
+    color: #454ce5;
+}
+.textpurplee{
+    color: #813af0;
+}
+.textblue{
+    color: 
+    #166bdd;
+}
+.textverdee{
+    color: 
+    #0ec56c;
+}
+.btn-pop{
+   background-color:#813af0;
+}
+.btn-popy{
+    background-color: #F5F5F5;
+}
+.bg-pp{
+    background-color: #0c0c0c;
+}
+.btn-gradiente {
+  background: linear-gradient(45deg, #2970c2, #8246a3,#15baa9);
+  color: #f5f5f5;
+  padding: 13px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;  
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-gradiente:hover {
+  background: linear-gradient(45deg, #8246a3, #2970c2,#15baa9, #17b4cc)}
+
+@media (min-width: 992px) {
+  .col-lg-1-7 {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+  }
+}
+.bg-gradiente{
+  background:  linear-gradient(45deg, #8246a3, #2970c2,#15baa9, #17b4cc) ;
+}
