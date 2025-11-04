@@ -1,3 +1,15 @@
+/*Animação Rolagem*/
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
 /* ==== Cores base === */
 :root {
   --azul: #2970C2;
